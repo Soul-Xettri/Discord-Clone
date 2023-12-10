@@ -1,0 +1,91 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Profile {
+  id       String @id @default(uuid())
+  userId   String @unique
+  name     String
+  imageUrl String @db.Text
+  email    String @db.Text
+
+  createdAt DateTime @default(now())
+  updateAt  DateTime @updatedAt
+
+  server   Server[]
+  members  Member[]
+  channels Channel[]
+}
+
+model Server {
+  id         String @id @default(uuid())
+  name       String
+  imageUrl   String @db.Text
+  inviteCode String @db.Text
+
+  createdAt DateTime @default(now())
+  updateAt  DateTime @updatedAt
+
+  Profile   Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  profileId String
+
+  members  Member[]
+  channels Channel[]
+
+  @@index([profileId])
+}
+
+model Member {
+  id   String     @id @default(uuid())
+  role MemberRole @default(GEUST)
+
+  createdAt DateTime @default(now())
+  updateAt  DateTime @updatedAt
+
+  Profile   Profile? @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  profileId String?
+
+  Server   Server? @relation(fields: [serverId], references: [id], onDelete: Cascade)
+  serverId String?
+
+  @@index([profileId])
+  @@index([serverId])
+}
+
+model Channel {
+  id        String      @id @default(uuid())
+  name      String
+  type      ChannelType @default(TEXT)
+
+  createdAt DateTime @default(now())
+  updateAt  DateTime @updatedAt
+
+  Profile   Profile?    @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  profileId String?
+
+  Server    Server?     @relation(fields: [serverId], references: [id], onDelete: Cascade)
+  serverId  String?
+
+  @@index([profileId])
+  @@index([serverId])
+}
+
+enum MemberRole {
+  ADMIN
+  MODERATOR
+  GEUST
+}
+
+enum ChannelType {
+  TEXT
+  AUDIO
+  VEDIO
+}
