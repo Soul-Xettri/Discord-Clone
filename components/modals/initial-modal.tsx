@@ -23,7 +23,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import { FileUpload } from "@/components/file-upload";
-import axios from "axios"
+import axios from "axios";
 import { useRouter } from "next/navigation";
 
 const formScheme = z.object({
@@ -55,14 +55,14 @@ export const InitialModal = () => {
   const router = useRouter();
 
   const onSubmit = async (values: z.infer<typeof formScheme>) => {
-    try{
-      await axios.post("/api/servers",values);
+    try {
+      await axios.post("/api/servers", values);
 
       form.reset();
       router.refresh();
       window.location.reload();
-    }catch(error){
-      console.log(error)
+    } catch (error) {
+      console.log(error);
     }
   };
   if (!isMounted) {

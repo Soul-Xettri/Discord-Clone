@@ -37,12 +37,12 @@ const formScheme = z.object({
 });
 
 export const EditServerModal = () => {
-  const { isOpen, onClose, type,data } = useModal();
+  const { isOpen, onClose, type, data } = useModal();
 
   const router = useRouter();
 
   const isModalOpen = isOpen && type === "editServer";
-  const {server}= data;
+  const { server } = data;
 
   const form = useForm({
     resolver: zodResolver(formScheme),
@@ -52,12 +52,12 @@ export const EditServerModal = () => {
     },
   });
 
-  useEffect(()=>{
-    if(server){
-      form.setValue("name",server.name);
-      form.setValue("imageUrl",server.imageUrl)
+  useEffect(() => {
+    if (server) {
+      form.setValue("name", server.name);
+      form.setValue("imageUrl", server.imageUrl);
     }
-  },[server, form])
+  }, [server, form]);
 
   const isLoading = form.formState.isSubmitting;
 
