@@ -61,18 +61,18 @@ model Member {
 }
 
 model Channel {
-  id        String      @id @default(uuid())
-  name      String
-  type      ChannelType @default(TEXT)
+  id   String      @id @default(uuid())
+  name String
+  type ChannelType @default(TEXT)
 
   createdAt DateTime @default(now())
   updateAt  DateTime @updatedAt
 
-  Profile   Profile?    @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  Profile   Profile? @relation(fields: [profileId], references: [id], onDelete: Cascade)
   profileId String?
 
-  Server    Server?     @relation(fields: [serverId], references: [id], onDelete: Cascade)
-  serverId  String?
+  Server   Server? @relation(fields: [serverId], references: [id], onDelete: Cascade)
+  serverId String?
 
   @@index([profileId])
   @@index([serverId])
