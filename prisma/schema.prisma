@@ -45,7 +45,7 @@ model Server {
 
 model Member {
   id   String     @id @default(uuid())
-  role MemberRole @default(GEUST)
+  role MemberRole @default(GUEST)
 
   createdAt DateTime @default(now())
   updateAt  DateTime @updatedAt
@@ -81,7 +81,7 @@ model Channel {
 enum MemberRole {
   ADMIN
   MODERATOR
-  GEUST
+  GUEST
 }
 
 enum ChannelType {
