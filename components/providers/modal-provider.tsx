@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { InviteModal } from "@/components/modals/invite-modal";
 import { EditServerModal } from "@/components/modals/edit-server-modal";
 import { MembersModal } from "@/components/modals/member-modal";
-import { CreateChannelModal } from "@/components/modals/create-channel-modal copy";
+import { CreateChannelModal } from "@/components/modals/create-channel-modal";
 import { LeaveServerModal } from "@/components/modals/leave-server-modal";
 import { DeleteServerModal } from "../modals/delete-server-modal";
 
