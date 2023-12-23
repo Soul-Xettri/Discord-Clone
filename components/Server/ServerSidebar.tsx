@@ -190,7 +190,7 @@ const ServerSidebar = async ({ severId }: ServerSidebarProps) => {
             <ServerSection 
             sectionType="members"
             role={role}
-            label="Manage Members"
+            label="Members"
             server={server}
             />
             <div className="space-y-[2px]">
