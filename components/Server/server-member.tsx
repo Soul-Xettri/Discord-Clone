@@ -28,7 +28,7 @@ export const ServerMember = ({ member, server }: ServerMemberProps) => {
   const onClick = () => {
     router.push(`/servers/${params?.serverId}/conversations/${member.id}`);
   };
-
+  const fullName = member.Profile?.name;
   return (
     <div>
       <button
@@ -49,7 +49,7 @@ export const ServerMember = ({ member, server }: ServerMemberProps) => {
               "text-primary dark:text-zinc-200 dark:group-hover:text-white"
           )}
         >
-          {member.Profile?.name}
+          {fullName ? fullName.replace(" null", "") : "Default Name"}
         </p>
         {icon}
       </button>
