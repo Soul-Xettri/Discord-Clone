@@ -13,6 +13,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { useModal } from "@/hooks/use-modal-store";
 
 interface ChatItemProps {
   id: string;
@@ -52,7 +53,7 @@ export const ChatItem = ({
   socketQuery,
 }: ChatItemProps) => {
   const [isEditing, setIsEditing] = useState(false);
-  const [isDeleting, setIsDeleting] = useState(false);
+  const { onOpen } = useModal();
 
   const form = useForm<z.infer<typeof formScheme>>({
     resolver: zodResolver(formScheme),
@@ -64,17 +65,17 @@ export const ChatItem = ({
   const isLoading = form.formState.isSubmitting;
 
   const onSubmit = async (values: z.infer<typeof formScheme>) => {
-    try{
+    try {
       const url = qs.stringifyUrl({
-        url:`${socketUrl}/${id}`,
-        query:socketQuery,
-      })
+        url: `${socketUrl}/${id}`,
+        query: socketQuery,
+      });
 
-      await axios.patch(url,values)
-      form.reset()
-      setIsEditing(false)
-    }catch(error){
-      console.log(error)
+      await axios.patch(url, values);
+      form.reset();
+      setIsEditing(false);
+    } catch (error) {
+      console.log(error);
     }
   };
 
@@ -185,7 +186,7 @@ export const ChatItem = ({
                       <FormControl>
                         <div className="relative w-full">
                           <Input
-                          disabled={isLoading}
+                            disabled={isLoading}
                             className="p-2 bg=zinc-200/90 dark:bg-zinc-700/75 border-none
                           border-0 focus-visible:ring-0 focus-visible:ring-offset-0 text-zinc-600
                           dark:text-zinc-200"
@@ -224,7 +225,12 @@ export const ChatItem = ({
           )}
           <ActionTooltip label="Delete">
             <Trash
-              onClick={() => setIsDeleting(true)}
+              onClick={() =>
+                onOpen("deleteMessage", {
+                  apiUrl: `${socketUrl}/${id}`,
+                  query: socketQuery,
+                })
+              }
               className="h-4 w-4 cursor-pointer ml-auto text-zinc-500 
                 hover:text-zinc-600 dark:text-zinc-300 transition"
             />
