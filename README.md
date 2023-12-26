@@ -136,6 +136,7 @@ Feel free to contribute and enhance the Discord Clone! 🚀
   <img src="public/whitemode.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>White Mode</em>
+  
   <img src="public/darkmode.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Dark Mode</em>
@@ -147,6 +148,7 @@ Feel free to contribute and enhance the Discord Clone! 🚀
   <img src="public/leave.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Admin View</em>
+  
   <img src="public/function.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Client View</em>
@@ -206,6 +208,7 @@ Feel free to contribute and enhance the Discord Clone! 🚀
   <img src="public/seatch.png" alt="Navbar Component" width="100%"/>
   <br />
 </p>
+
 <p align="center">
   <img src="public/seatch.png" alt="Navbar Component" width="100%"/>
   <br />
@@ -219,17 +222,20 @@ Feel free to contribute and enhance the Discord Clone! 🚀
   <br />
   <em>Channel Realtime Chat</em>
 </p>
+
 <p align="center">
   <img src="public/oneonone.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Personal one on one realtime chat with other member</em>
 </p>
+
 <p align="center">
   <img src="public/edit.png" alt="Navbar Component" width="100%"/>
   <img src="public/edit2.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Edit chat</em>
 </p>
+
 <p align="center">
   <img src="public/del.png" alt="Navbar Component" width="100%"/>
   <img src="public/del1.png" alt="Navbar Component" width="100%"/>
