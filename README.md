@@ -133,7 +133,7 @@ Feel free to contribute and enhance the Discord Clone! 🚀
 ### 3) Main Page
 
 <p align="center">
-  <img src="public/witemode.png" alt="Navbar Component" width="100%"/>
+  <img src="public/whitemode.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>White Mode</em>
   <img src="public/darkmode.png" alt="Navbar Component" width="100%"/>
