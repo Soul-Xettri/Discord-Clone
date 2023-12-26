@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Discord Clone
+
+A full-stack Discord clone built using Next.js, React, Socket.io, Prisma, Tailwind, and MySQL.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Scripts](#scripts)
+- [Dependencies](#dependencies)
+- [Dev Dependencies](#dev-dependencies)
+
+## Introduction
+
+This project is a Discord clone that replicates the core functionalities of the popular communication platform. It is developed using a modern tech stack, including Next.js for the frontend, React for UI components, Socket.io for real-time communication, Prisma as the database ORM, and Tailwind for styling.
+
+## Features
+
+- Real-time messaging using Socket.io
+- User authentication and authorization
+- Server and channel management
+- Emoji support with Emoji Mart
+- File uploads with Uploadthing
+- Interactive UI components with Radix UI
+- LiveKit integration for video and audio features
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Socket.io](https://socket.io/)
+- [Prisma](https://prisma.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [MySQL](https://www.mysql.com/)
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/your-username/discord-clone.git
+   cd discord-clone
+Save to grepper
+Install dependencies.
 
-```bash
+bash
+Copy code
+npm install
+Set up the database using Prisma.
+
+bash
+Copy code
+npx prisma db push --force-reset
+Run the development server.
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Scripts
+dev: Run the Next.js development server.
+build: Build the Next.js application.
+start: Start the Next.js production server.
+lint: Lint the project files.
+db:reset: Reset the database using Prisma.
+Dependencies
+List of production dependencies from package.json.
+Dev Dependencies
+List of development dependencies from package.json.
+Feel free to contribute and make this Discord clone even more awesome!
