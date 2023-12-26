@@ -147,11 +147,11 @@ Feel free to contribute and enhance the Discord Clone! 🚀
 <p align="center">
   <img src="public/leave.png" alt="Navbar Component" width="100%"/>
   <br />
-  <em>Admin View</em>
+  <em>Client View</em>
   <br />
   <img src="public/function.png" alt="Navbar Component" width="100%"/>
   <br />
-  <em>Client View</em>
+  <em>Admin View</em>
 </p>
 
 ### 5) Channel
