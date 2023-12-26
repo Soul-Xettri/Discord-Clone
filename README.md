@@ -2,9 +2,9 @@
 
 <p align="center">
   Welcome to Discord Clone, a full-stack application built with Next.js, React, Socket.io, Prisma, Tailwind, and MySQL. This project aims to replicate the popular Discord platform, providing real-time messaging, server management, and other essential features.
-  <br>
-  This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 </p>
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Technologies Used
 
