@@ -105,27 +105,27 @@ Feel free to contribute and enhance the Discord Clone! 🚀
 ### 1) Sign Up Using Clerk
 
 <p align="center">
-  <img src="src/assets/images/1.png" alt="Navbar Component" width="100%"/>
+  <img src="public/1.png" alt="Navbar Component" width="100%"/>
   <br />
 </p>
 
 ### 2) Server
 
 <p align="center">
-  <img src="src/assets/images/2.png" alt="Navbar Component" width="100%"/>
-  <img src="src/assets/images/3.png" alt="Navbar Component" width="100%"/>
+  <img src="public/2.png" alt="Navbar Component" width="100%"/>
+  <img src="public/3.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Add new server with Uploadthing</em>
 </p>
 
 <p align="center">
-  <img src="src/assets/images/setting.png" alt="Navbar Component" width="100%"/>
+  <img src="public/setting.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Server Setting</em>
 </p>
 
 <p align="center">
-  <img src="src/assets/images/delserver.png" alt="Navbar Component" width="100%"/>
+  <img src="public/delserver.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Delete Server</em>
 </p>
@@ -133,10 +133,10 @@ Feel free to contribute and enhance the Discord Clone! 🚀
 ### 3) Main Page
 
 <p align="center">
-  <img src="src/assets/images/widemode.png" alt="Navbar Component" width="100%"/>
+  <img src="public/widemode.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>White Mode</em>
-  <img src="src/assets/images/darkmode.png" alt="Navbar Component" width="100%"/>
+  <img src="public/darkmode.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Dark Mode</em>
 </p>
@@ -144,10 +144,10 @@ Feel free to contribute and enhance the Discord Clone! 🚀
 ### 4) Server Top Navbar
 
 <p align="center">
-  <img src="src/assets/images/leave.png" alt="Navbar Component" width="100%"/>
+  <img src="public/leave.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Admin View</em>
-  <img src="src/assets/images/function.png" alt="Navbar Component" width="100%"/>
+  <img src="public/function.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Client View</em>
 </p>
@@ -155,19 +155,19 @@ Feel free to contribute and enhance the Discord Clone! 🚀
 ### 5) Channel
 
 <p align="center">
-  <img src="src/assets/images/createChannel.png" alt="Navbar Component" width="100%"/>
+  <img src="public/createChannel.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Create Channel</em>
 </p>
 
 <p align="center">
-  <img src="src/assets/images/editcha.png" alt="Navbar Component" width="100%"/>
+  <img src="public/editcha.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Edit Channel</em>
 </p>
 
-p align="center">
-  <img src="src/assets/images/delChane.png" alt="Navbar Component" width="100%"/>
+<p align="center">
+  <img src="public/delChane.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Delete Channel</em>
 </p>
@@ -175,13 +175,13 @@ p align="center">
 ### 5) Members
 
 <p align="center">
-  <img src="src/assets/images/invite.png" alt="Navbar Component" width="100%"/>
+  <img src="public/invite.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Invite Members</em>
 </p>
 
 <p align="center">
-  <img src="src/assets/images/userEdit.png" alt="Navbar Component" width="100%"/>
+  <img src="public/userEdit.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Edit Member</em>
 </p>
@@ -189,25 +189,25 @@ p align="center">
 ### 6) Navigation and Server Sidebar
 
 <p align="center">
-  <img src="src/assets/images/serverSidebar.png" alt="Navbar Component" width="100%"/>
+  <img src="public/serverSidebar.png" alt="Navbar Component" width="100%"/>
   <br />
 </p>
 
 ### 7) Search Inside Server
 
 <p align="center">
-  <img src="src/assets/images/seatch.png" alt="Navbar Component" width="100%"/>
+  <img src="public/seatch.png" alt="Navbar Component" width="100%"/>
   <br />
 </p>
 
 ### 8) Audio and Video Call
 
 <p align="center">
-  <img src="src/assets/images/seatch.png" alt="Navbar Component" width="100%"/>
+  <img src="public/seatch.png" alt="Navbar Component" width="100%"/>
   <br />
 </p>
 <p align="center">
-  <img src="src/assets/images/seatch.png" alt="Navbar Component" width="100%"/>
+  <img src="public/seatch.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Screen share</em>
 </p>
@@ -215,24 +215,24 @@ p align="center">
 ### 9) Realtime Chat
 
 <p align="center">
-  <img src="src/assets/images/chat.png" alt="Navbar Component" width="100%"/>
+  <img src="public/chat.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Channel Realtime Chat</em>
 </p>
 <p align="center">
-  <img src="src/assets/images/oneonone.png" alt="Navbar Component" width="100%"/>
+  <img src="public/oneonone.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Personal one on one realtime chat with other member</em>
 </p>
 <p align="center">
-  <img src="src/assets/images/edit.png" alt="Navbar Component" width="100%"/>
-  <img src="src/assets/images/edit2.png" alt="Navbar Component" width="100%"/>
+  <img src="public/edit.png" alt="Navbar Component" width="100%"/>
+  <img src="public/edit2.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Edit chat</em>
 </p>
 <p align="center">
-  <img src="src/assets/images/del.png" alt="Navbar Component" width="100%"/>
-  <img src="src/assets/images/del1.png" alt="Navbar Component" width="100%"/>
+  <img src="public/del.png" alt="Navbar Component" width="100%"/>
+  <img src="public/del1.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Delete chat</em>
 </p>
@@ -240,7 +240,7 @@ p align="center">
 ### 10) Sign Out using Clerk
 
 <p align="center">
-  <img src="src/assets/images/out.png" alt="Navbar Component" width="100%"/>
+  <img src="public/out.png" alt="Navbar Component" width="100%"/>
   <br />
 </p>
 
