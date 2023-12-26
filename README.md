@@ -10,16 +10,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Technologies Used
 
 ### Front-end
+
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [Socket.io](https://socket.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ### Back-end
+
 - [Prisma](https://prisma.io/)
 - [MySQL](https://www.mysql.com/)
 
 ### Additional Libraries
+
 - [Clerk](https://docs.clerk.dev/)
 - [Emoji Mart](https://github.com/missive/emoji-mart)
 - [LiveKit](https://livekit.io/)
@@ -40,25 +43,29 @@ This Discord Clone is a feature-rich platform that includes real-time messaging,
 ## Installation and Setup
 
 1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/discord-clone.git
-    cd discord-clone
-    ```
+
+   ```bash
+   git clone https://github.com/your-username/discord-clone.git
+   cd discord-clone
+   ```
 
 2. **Install dependencies:**
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 3. **Set up the database using Prisma:**
-    ```bash
-    npx prisma db push --force-reset
-    ```
+
+   ```bash
+   npx prisma db push --force-reset
+   ```
 
 4. **Run the development server:**
-    ```bash
-    npm run dev
-    ```
+
+   ```bash
+   npm run dev
+   ```
 
 5. **Open [http://localhost:3000](http://localhost:3000) in your browser to explore the Discord Clone.**
 
@@ -92,3 +99,149 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 - List of development dependencies from `package.json`.
 
 Feel free to contribute and enhance the Discord Clone! 🚀
+
+## Screenshots
+
+### 1) Sign Up Using Clerk
+
+<p align="center">
+  <img src="src/assets/images/1.png" alt="Navbar Component" width="100%"/>
+  <br />
+</p>
+
+### 2) Server
+
+<p align="center">
+  <img src="src/assets/images/2.png" alt="Navbar Component" width="100%"/>
+  <img src="src/assets/images/3.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Add new server with Uploadthing</em>
+</p>
+
+<p align="center">
+  <img src="src/assets/images/setting.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Server Setting</em>
+</p>
+
+<p align="center">
+  <img src="src/assets/images/delserver.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Delete Server</em>
+</p>
+
+### 3) Main Page
+
+<p align="center">
+  <img src="src/assets/images/widemode.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>White Mode</em>
+  <img src="src/assets/images/darkmode.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Dark Mode</em>
+</p>
+
+### 4) Server Top Navbar
+
+<p align="center">
+  <img src="src/assets/images/leave.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Admin View</em>
+  <img src="src/assets/images/function.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Client View</em>
+</p>
+
+### 5) Channel
+
+<p align="center">
+  <img src="src/assets/images/createChannel.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Create Channel</em>
+</p>
+
+<p align="center">
+  <img src="src/assets/images/editcha.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Edit Channel</em>
+</p>
+
+p align="center">
+  <img src="src/assets/images/delChane.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Delete Channel</em>
+</p>
+
+### 5) Members
+
+<p align="center">
+  <img src="src/assets/images/invite.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Invite Members</em>
+</p>
+
+<p align="center">
+  <img src="src/assets/images/userEdit.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Edit Member</em>
+</p>
+
+### 6) Navigation and Server Sidebar
+
+<p align="center">
+  <img src="src/assets/images/serverSidebar.png" alt="Navbar Component" width="100%"/>
+  <br />
+</p>
+
+### 7) Search Inside Server
+
+<p align="center">
+  <img src="src/assets/images/seatch.png" alt="Navbar Component" width="100%"/>
+  <br />
+</p>
+
+### 8) Audio and Video Call
+
+<p align="center">
+  <img src="src/assets/images/seatch.png" alt="Navbar Component" width="100%"/>
+  <br />
+</p>
+<p align="center">
+  <img src="src/assets/images/seatch.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Screen share</em>
+</p>
+
+### 9) Realtime Chat
+
+<p align="center">
+  <img src="src/assets/images/chat.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Channel Realtime Chat</em>
+</p>
+<p align="center">
+  <img src="src/assets/images/oneonone.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Personal one on one realtime chat with other member</em>
+</p>
+<p align="center">
+  <img src="src/assets/images/edit.png" alt="Navbar Component" width="100%"/>
+  <img src="src/assets/images/edit2.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Edit chat</em>
+</p>
+<p align="center">
+  <img src="src/assets/images/del.png" alt="Navbar Component" width="100%"/>
+  <img src="src/assets/images/del1.png" alt="Navbar Component" width="100%"/>
+  <br />
+  <em>Delete chat</em>
+</p>
+
+### 10) Sign Out using Clerk
+
+<p align="center">
+  <img src="src/assets/images/out.png" alt="Navbar Component" width="100%"/>
+  <br />
+</p>
+
+
