@@ -123,8 +123,8 @@ Feel free to contribute and enhance the Discord Clone! 🚀
   <br />
   <em>Server Setting</em>
 </p>
-<br />
-<p align="center">
+
+<p align="center" paddingTop="5px">
   <img src="public/delserver.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Delete Server</em>
@@ -161,8 +161,8 @@ Feel free to contribute and enhance the Discord Clone! 🚀
   <br />
   <em>Create Channel</em>
 </p>
-<br />
-<p align="center">
+
+<p align="center" paddingTop="5px">
   <img src="public/editcha.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Edit Channel</em>
@@ -181,8 +181,8 @@ Feel free to contribute and enhance the Discord Clone! 🚀
   <br />
   <em>Invite Members</em>
 </p>
-<br />
-<p align="center">
+
+<p align="center" paddingTop="5px">
   <img src="public/userEdit.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Edit Member</em>
@@ -208,8 +208,8 @@ Feel free to contribute and enhance the Discord Clone! 🚀
   <img src="public/seatch.png" alt="Navbar Component" width="100%"/>
   <br />
 </p>
-<br />
-<p align="center">
+
+<p align="center" paddingTop="5px">
   <img src="public/seatch.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Screen share</em>
@@ -222,21 +222,21 @@ Feel free to contribute and enhance the Discord Clone! 🚀
   <br />
   <em>Channel Realtime Chat</em>
 </p>
-<br />
-<p align="center">
+
+<p align="center" paddingTop="5px">
   <img src="public/oneonone.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Personal one on one realtime chat with other member</em>
 </p>
-<br />
-<p align="center">
+
+<p align="center" paddingTop="5px">
   <img src="public/edit.png" alt="Navbar Component" width="100%"/>
   <img src="public/edit2.png" alt="Navbar Component" width="100%"/>
   <br />
   <em>Edit chat</em>
 </p>
-<br />
-<p align="center">
+
+<p align="center" paddingTop="5px">
   <img src="public/del.png" alt="Navbar Component" width="100%"/>
   <img src="public/del1.png" alt="Navbar Component" width="100%"/>
   <br />
